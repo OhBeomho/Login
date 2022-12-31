@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>NodeJS Login</title>
+</head>
+<body>
+	<h1>Login</h1>
+	<form action="/account/login" method="post">
+		<table>
+			<tr>
+				<td>ID</td>
+				<td><input type="text" name="id" required /></td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td><input type="password" name="password" required /></td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<button type="submit">Login</button>
+					<a href="/account/signup">Sign up</a>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
